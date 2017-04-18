@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberJava.runTest" time="172.127" tests="114" errors="2" skipped="20" failures="22">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\anast\git\newmavselcuc\newmavselcuc"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\anast\git\newmavselcuc\newmavselcuc"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\anast\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\anast\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3469923284298031831.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\chromedriver_win32;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\drivers;C:\Users\anast\workspace\newmavselcuc\drivers;C:\seleniumgrid\;C:\Users\anast\AppData\Local\Microsoft\WindowsApps;;C:\Windows\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\anast"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="anast"/>
+    <property name="java.class.path" value="/C:/Users/anast/eclipse/java-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\anast\git\newmavselcuc\newmavselcuc\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: PU field is displayed" time="0.016"/>
+  <testcase name="Then Поле Пакет услуг exists" classname="Scenario: PU field is displayed" time="0.012">
+    <failure message="Element not found {by text: Пакет услуг}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {by text: Пакет услуг}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(.) = "Пакет услуг"]/parent::*"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-6S2SOLQ2', ip: '172.23.88.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\anast\AppData\Local\Temp\scoped_dir13872_8849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b00eacc1ca8c603e77fbb13bc9e1802
+*** Element info: {Using=xpath, value=.//*/text()[normalize-space(.) = "Пакет услуг"]/parent::*}
+</failure>
+    <system-out><![CDATA[!!time 4000
+!!1 Пакет услуг
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: PU field is displayed" classname="Scenario: PU field is displayed" time="0.012">
+    <failure message="Element not found {by text: Пакет услуг}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {by text: Пакет услуг}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(.) = "Пакет услуг"]/parent::*"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-6S2SOLQ2', ip: '172.23.88.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\anast\AppData\Local\Temp\scoped_dir13872_8849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b00eacc1ca8c603e77fbb13bc9e1802
+*** Element info: {Using=xpath, value=.//*/text()[normalize-space(.) = "Пакет услуг"]/parent::*}
+</failure>
+  </testcase>
+  <testcase name="And Поле Пакет услуг редактируемое" classname="Scenario: PU field is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Поле Пакет услуг имеет тип Выпадающий список" classname="Scenario: PU field is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Поле Пакет услуг содержит значения Класс, Максимум" classname="Scenario: PU field is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Зарплатный клиент field is displayed" time="0"/>
+  <testcase name="Then Поле Зарплатный клиент exists" classname="Scenario: Зарплатный клиент field is displayed" time="0.004">
+    <failure message="Element not found {by text: Зарплатный клиент}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {by text: Зарплатный клиент}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(.) = "Зарплатный клиент"]/parent::*"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-6S2SOLQ2', ip: '172.23.88.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\anast\AppData\Local\Temp\scoped_dir13872_8849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b00eacc1ca8c603e77fbb13bc9e1802
+*** Element info: {Using=xpath, value=.//*/text()[normalize-space(.) = "Зарплатный клиент"]/parent::*}
+</failure>
+    <system-out><![CDATA[!!time 4000
+!!1 Зарплатный клиент
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Зарплатный клиент field is displayed" classname="Scenario: Зарплатный клиент field is displayed" time="0.004">
+    <failure message="Element not found {by text: Зарплатный клиент}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {by text: Зарплатный клиент}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(.) = "Зарплатный клиент"]/parent::*"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 36 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-6S2SOLQ2', ip: '172.23.88.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\anast\AppData\Local\Temp\scoped_dir13872_8849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b00eacc1ca8c603e77fbb13bc9e1802
+*** Element info: {Using=xpath, value=.//*/text()[normalize-space(.) = "Зарплатный клиент"]/parent::*}
+</failure>
+  </testcase>
+  <testcase name="And Поле Зарплатный клиент редактируемое" classname="Scenario: Зарплатный клиент field is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Поле Зарплатный клиент имеет тип Переключатель" classname="Scenario: Зарплатный клиент field is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Поле Зарплатный клиент имеет значение Нет" classname="Scenario: Зарплатный клиент field is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Поле Зарплатный клиент содержит значения Да, Нет" classname="Scenario: Зарплатный клиент field is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Фамилия field is displayed" time="0"/>
+  <testcase name="Then Поле Фамилия exists" classname="Scenario: Фамилия field is displayed" time="0"/>
+  <testcase name="And Поле Фамилия редактируемое" classname="Scenario: Фамилия field is displayed" time="0"/>
+  <testcase name="And Поле Фамилия имеет тип Текстовое поле с подсказкой" classname="Scenario: Фамилия field is displayed" time="0"/>
+  <testcase name="And Поле Фамилия имеет значение пустое" classname="Scenario: Фамилия field is displayed" time="0"/>
+  <testcase name="And Поле Фамилия имеет длину 35 символов" classname="Scenario: Фамилия field is displayed" time="0"/>
+  <testcase name="Scenario: Фамилия field is displayed" classname="Scenario: Фамилия field is displayed" time="0"/>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Фамилия field accepts english letters, russian letters, space and dash" time="0"/>
+  <testcase name="When I type &quot;qWaS1~!@#$%^&amp;*()_+Ё!№;%:?*()_+-={}[]&lt;&gt;?/\| to Фамилия" classname="Scenario: Фамилия field accepts english letters, russian letters, space and dash" time="0"/>
+  <testcase name="Then Поле Фамилия имеет значение qWaS1~!@#$%^&amp;*" classname="Scenario: Фамилия field accepts english letters, russian letters, space and dash" time="0">
+    <failure message="Element should have value &apos;qWaS1~!@#$%^&amp;*&apos; {By.id: lastName-id}&#10;Element: &apos;&lt;input autocomplete=&quot;off&quot; class=&quot;input_block__text ui-autocomplete-input&quot; data-bind=&quot;autoComplete: lastName, caretPosition: lastName, modifyOnFocusOut: lastName,&#10;               validated: {&apos;level&apos; : &apos;ok&apos;}, valueUpdate: [&apos;afterkeydown&apos;, &apos;keyup&apos;]&quot; id=&quot;lastName-id&quot; maxlength=&quot;35&quot; name=&quot;lastName&quot; type=&quot;text&quot; value=&quot;Эйцфыёёжж-Хъхъбю&quot;&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have value 'qWaS1~!@#$%^&*' {By.id: lastName-id}
+Element: '<input autocomplete="off" class="input_block__text ui-autocomplete-input" data-bind="autoComplete: lastName, caretPosition: lastName, modifyOnFocusOut: lastName,
+               validated: {'level' : 'ok'}, valueUpdate: ['afterkeydown', 'keyup']" id="lastName-id" maxlength="35" name="lastName" type="text" value="Эйцфыёёжж-Хъхъбю"></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Фамилия field accepts english letters, russian letters, space and dash" classname="Scenario: Фамилия field accepts english letters, russian letters, space and dash" time="0">
+    <failure message="Element should have value &apos;qWaS1~!@#$%^&amp;*&apos; {By.id: lastName-id}&#10;Element: &apos;&lt;input autocomplete=&quot;off&quot; class=&quot;input_block__text ui-autocomplete-input&quot; data-bind=&quot;autoComplete: lastName, caretPosition: lastName, modifyOnFocusOut: lastName,&#10;               validated: {&apos;level&apos; : &apos;ok&apos;}, valueUpdate: [&apos;afterkeydown&apos;, &apos;keyup&apos;]&quot; id=&quot;lastName-id&quot; maxlength=&quot;35&quot; name=&quot;lastName&quot; type=&quot;text&quot; value=&quot;Эйцфыёёжж-Хъхъбю&quot;&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have value 'qWaS1~!@#$%^&*' {By.id: lastName-id}
+Element: '<input autocomplete="off" class="input_block__text ui-autocomplete-input" data-bind="autoComplete: lastName, caretPosition: lastName, modifyOnFocusOut: lastName,
+               validated: {'level' : 'ok'}, valueUpdate: ['afterkeydown', 'keyup']" id="lastName-id" maxlength="35" name="lastName" type="text" value="Эйцфыёёжж-Хъхъбю"></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Имя field is displayed" time="0"/>
+  <testcase name="Then Поле Имя exists" classname="Scenario: Имя field is displayed" time="0"/>
+  <testcase name="And Поле Имя редактируемое" classname="Scenario: Имя field is displayed" time="0"/>
+  <testcase name="And Поле Имя имеет тип Текстовое поле с подсказкой" classname="Scenario: Имя field is displayed" time="0"/>
+  <testcase name="And Поле Имя имеет значение пустое" classname="Scenario: Имя field is displayed" time="0"/>
+  <testcase name="And Поле Имя имеет длину 35 символов" classname="Scenario: Имя field is displayed" time="0"/>
+  <testcase name="Scenario: Имя field is displayed" classname="Scenario: Имя field is displayed" time="0"/>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Имя field accepts english letters, russian letters, space and dash" time="0"/>
+  <testcase name="When I type &quot;qWaS1~!@#$%^&amp;*()_+Ё!№;%:?*()_+-={}[]&lt;&gt;?/\| to Имя" classname="Scenario: Имя field accepts english letters, russian letters, space and dash" time="0"/>
+  <testcase name="Then Поле Имя имеет значение qWaS1~!@#$%^&amp;*" classname="Scenario: Имя field accepts english letters, russian letters, space and dash" time="0.001">
+    <failure message="Element should have value &apos;qWaS1~!@#$%^&amp;*&apos; {By.id: firstName-id}&#10;Element: &apos;&lt;input autocomplete=&quot;off&quot; class=&quot;input_block__text ui-autocomplete-input&quot; data-bind=&quot;autoComplete: firstName, caretPosition: firstName, modifyOnFocusOut:firstName,&#10;               validated: {&apos;level&apos; : &apos;ok&apos;}, valueUpdate: [&apos;afterkeydown&apos;, &apos;keyup&apos;]&quot; id=&quot;firstName-id&quot; maxlength=&quot;35&quot; name=&quot;firstName&quot; type=&quot;text&quot; value=&quot;Эйцфыёёжж-Хъхъбю&quot;&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have value 'qWaS1~!@#$%^&*' {By.id: firstName-id}
+Element: '<input autocomplete="off" class="input_block__text ui-autocomplete-input" data-bind="autoComplete: firstName, caretPosition: firstName, modifyOnFocusOut:firstName,
+               validated: {'level' : 'ok'}, valueUpdate: ['afterkeydown', 'keyup']" id="firstName-id" maxlength="35" name="firstName" type="text" value="Эйцфыёёжж-Хъхъбю"></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Имя field accepts english letters, russian letters, space and dash" classname="Scenario: Имя field accepts english letters, russian letters, space and dash" time="0.002">
+    <failure message="Element should have value &apos;qWaS1~!@#$%^&amp;*&apos; {By.id: firstName-id}&#10;Element: &apos;&lt;input autocomplete=&quot;off&quot; class=&quot;input_block__text ui-autocomplete-input&quot; data-bind=&quot;autoComplete: firstName, caretPosition: firstName, modifyOnFocusOut:firstName,&#10;               validated: {&apos;level&apos; : &apos;ok&apos;}, valueUpdate: [&apos;afterkeydown&apos;, &apos;keyup&apos;]&quot; id=&quot;firstName-id&quot; maxlength=&quot;35&quot; name=&quot;firstName&quot; type=&quot;text&quot; value=&quot;Эйцфыёёжж-Хъхъбю&quot;&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have value 'qWaS1~!@#$%^&*' {By.id: firstName-id}
+Element: '<input autocomplete="off" class="input_block__text ui-autocomplete-input" data-bind="autoComplete: firstName, caretPosition: firstName, modifyOnFocusOut:firstName,
+               validated: {'level' : 'ok'}, valueUpdate: ['afterkeydown', 'keyup']" id="firstName-id" maxlength="35" name="firstName" type="text" value="Эйцфыёёжж-Хъхъбю"></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Отчество field is displayed" time="0"/>
+  <testcase name="Then Поле Отчество exists" classname="Scenario: Отчество field is displayed" time="0"/>
+  <testcase name="And Поле Отчество редактируемое" classname="Scenario: Отчество field is displayed" time="0"/>
+  <testcase name="And Поле Отчество имеет тип Текстовое поле с подсказкой" classname="Scenario: Отчество field is displayed" time="0"/>
+  <testcase name="And Поле Отчество имеет значение пустое" classname="Scenario: Отчество field is displayed" time="0"/>
+  <testcase name="And Поле Отчество имеет длину 35 символов" classname="Scenario: Отчество field is displayed" time="0"/>
+  <testcase name="Scenario: Отчество field is displayed" classname="Scenario: Отчество field is displayed" time="0"/>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Отчество field accepts english letters, russian letters, space and dash" time="0"/>
+  <testcase name="When I type &quot;qWaS1~!@#$%^&amp;*()_+Ё!№;%:?*()_+-={}[]&lt;&gt;?/\| to Отчество" classname="Scenario: Отчество field accepts english letters, russian letters, space and dash" time="0"/>
+  <testcase name="Then Поле Отчество имеет значение qWaS1~!@#$%^&amp;*" classname="Scenario: Отчество field accepts english letters, russian letters, space and dash" time="0">
+    <failure message="Element should have value &apos;qWaS1~!@#$%^&amp;*&apos; {By.id: midName-id}&#10;Element: &apos;&lt;input autocomplete=&quot;off&quot; class=&quot;input_block__text ui-autocomplete-input&quot; data-bind=&quot;autoComplete: midName, caretPosition: midName, modifyOnFocusOut: midName, tip ,validated: {&apos;level&apos; : &apos;ok&apos;}, valueUpdate: [&apos;afterkeydown&apos;, &apos;keyup&apos;]&quot; id=&quot;midName-id&quot; maxlength=&quot;35&quot; name=&quot;midName&quot; type=&quot;text&quot; value=&quot;Эйцфыёёжж-Хъхъбю&quot;&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have value 'qWaS1~!@#$%^&*' {By.id: midName-id}
+Element: '<input autocomplete="off" class="input_block__text ui-autocomplete-input" data-bind="autoComplete: midName, caretPosition: midName, modifyOnFocusOut: midName, tip ,validated: {'level' : 'ok'}, valueUpdate: ['afterkeydown', 'keyup']" id="midName-id" maxlength="35" name="midName" type="text" value="Эйцфыёёжж-Хъхъбю"></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Отчество field accepts english letters, russian letters, space and dash" classname="Scenario: Отчество field accepts english letters, russian letters, space and dash" time="0.004">
+    <failure message="Element should have value &apos;qWaS1~!@#$%^&amp;*&apos; {By.id: midName-id}&#10;Element: &apos;&lt;input autocomplete=&quot;off&quot; class=&quot;input_block__text ui-autocomplete-input&quot; data-bind=&quot;autoComplete: midName, caretPosition: midName, modifyOnFocusOut: midName, tip ,validated: {&apos;level&apos; : &apos;ok&apos;}, valueUpdate: [&apos;afterkeydown&apos;, &apos;keyup&apos;]&quot; id=&quot;midName-id&quot; maxlength=&quot;35&quot; name=&quot;midName&quot; type=&quot;text&quot; value=&quot;Эйцфыёёжж-Хъхъбю&quot;&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have value 'qWaS1~!@#$%^&*' {By.id: midName-id}
+Element: '<input autocomplete="off" class="input_block__text ui-autocomplete-input" data-bind="autoComplete: midName, caretPosition: midName, modifyOnFocusOut: midName, tip ,validated: {'level' : 'ok'}, valueUpdate: ['afterkeydown', 'keyup']" id="midName-id" maxlength="35" name="midName" type="text" value="Эйцфыёёжж-Хъхъбю"></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Имя на расчетной карте is displayed" time="0"/>
+  <testcase name="Then Поле Имя на расчетной карте exists" classname="Scenario: Имя на расчетной карте is displayed" time="0"/>
+  <testcase name="And Поле Имя на расчетной карте редактируемое" classname="Scenario: Имя на расчетной карте is displayed" time="0"/>
+  <testcase name="And Поле Имя на расчетной карте имеет тип Текстовое поле" classname="Scenario: Имя на расчетной карте is displayed" time="0"/>
+  <testcase name="And Поле Имя на расчетной карте имеет значение пустое" classname="Scenario: Имя на расчетной карте is displayed" time="0"/>
+  <testcase name="And Поле Имя на расчетной карте имеет длину 35 символов" classname="Scenario: Имя на расчетной карте is displayed" time="0"/>
+  <testcase name="Scenario: Имя на расчетной карте is displayed" classname="Scenario: Имя на расчетной карте is displayed" time="0"/>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Поле Имя на расчетной карте заполняется транслитерацией Имя + Отчество" time="0"/>
+  <testcase name="When I type Петров to Фамилия" classname="Scenario: Поле Имя на расчетной карте заполняется транслитерацией Имя + Отчество" time="0.001"/>
+  <testcase name="And I type Иван to Имя" classname="Scenario: Поле Имя на расчетной карте заполняется транслитерацией Имя + Отчество" time="0"/>
+  <testcase name="Then Поле Имя на расчетной карте имеет значение Ivan Petrov" classname="Scenario: Поле Имя на расчетной карте заполняется транслитерацией Имя + Отчество" time="0"/>
+  <testcase name="Scenario: Поле Имя на расчетной карте заполняется транслитерацией Имя + Отчество" classname="Scenario: Поле Имя на расчетной карте заполняется транслитерацией Имя + Отчество" time="0"/>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Имя на расчетной карте field accepts english capital letters, space, dot, slash/ and dash" time="0.001"/>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Имя на расчетной карте field accepts english capital letters, space, dot, slash/ and dash" time="0"/>
+  <testcase name="When I type &quot;qWaS1~!@#$%^&amp;*()_+Ё!№;%:?*()_+-={}[]&lt;&gt;?/\| to Имя на расчетной карте" classname="Scenario: Имя на расчетной карте field accepts english capital letters, space, dot, slash/ and dash" time="0"/>
+  <testcase name="When I type &quot;qWaS1~!@#$%^&amp;*()_+Ё!№;%:?*()_+-={}[]&lt;&gt;?/\| to Имя на расчетной карте" classname="Scenario: Имя на расчетной карте field accepts english capital letters, space, dot, slash/ and dash" time="0"/>
+  <testcase name="Then Поле Имя на расчетной карте имеет значение qWaS1~!@#$%^&amp;*" classname="Scenario: Имя на расчетной карте field accepts english capital letters, space, dot, slash/ and dash" time="0">
+    <failure message="Element should have value &apos;qWaS1~!@#$%^&amp;*&apos; {By.id: embossingFIO-id}&#10;Element: &apos;&lt;input autocomplete=&quot;off&quot; class=&quot;input_block__text&quot; data-bind=&quot;textInput: embossingFIO, hasFocus: enableEmbossingFIO&quot; id=&quot;embossingFIO-id&quot; maxlength=&quot;35&quot; name=&quot;embossingFIO&quot; type=&quot;text&quot; value=&quot;QWAS-/&quot;&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have value 'qWaS1~!@#$%^&*' {By.id: embossingFIO-id}
+Element: '<input autocomplete="off" class="input_block__text" data-bind="textInput: embossingFIO, hasFocus: enableEmbossingFIO" id="embossingFIO-id" maxlength="35" name="embossingFIO" type="text" value="QWAS-/"></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Then Поле Имя на расчетной карте имеет значение qWaS1~!@#$%^&amp;*" classname="Scenario: Имя на расчетной карте field accepts english capital letters, space, dot, slash/ and dash" time="0.004">
+    <failure message="Element should have value &apos;qWaS1~!@#$%^&amp;*&apos; {By.id: embossingFIO-id}&#10;Element: &apos;&lt;input autocomplete=&quot;off&quot; class=&quot;input_block__text&quot; data-bind=&quot;textInput: embossingFIO, hasFocus: enableEmbossingFIO&quot; id=&quot;embossingFIO-id&quot; maxlength=&quot;35&quot; name=&quot;embossingFIO&quot; type=&quot;text&quot; value=&quot;QWAS-/&quot;&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have value 'qWaS1~!@#$%^&*' {By.id: embossingFIO-id}
+Element: '<input autocomplete="off" class="input_block__text" data-bind="textInput: embossingFIO, hasFocus: enableEmbossingFIO" id="embossingFIO-id" maxlength="35" name="embossingFIO" type="text" value="QWAS-/"></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Имя на расчетной карте field accepts english capital letters, space, dot, slash/ and dash" classname="Scenario: Имя на расчетной карте field accepts english capital letters, space, dot, slash/ and dash" time="0">
+    <failure message="Element should have value &apos;qWaS1~!@#$%^&amp;*&apos; {By.id: embossingFIO-id}&#10;Element: &apos;&lt;input autocomplete=&quot;off&quot; class=&quot;input_block__text&quot; data-bind=&quot;textInput: embossingFIO, hasFocus: enableEmbossingFIO&quot; id=&quot;embossingFIO-id&quot; maxlength=&quot;35&quot; name=&quot;embossingFIO&quot; type=&quot;text&quot; value=&quot;QWAS-/&quot;&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have value 'qWaS1~!@#$%^&*' {By.id: embossingFIO-id}
+Element: '<input autocomplete="off" class="input_block__text" data-bind="textInput: embossingFIO, hasFocus: enableEmbossingFIO" id="embossingFIO-id" maxlength="35" name="embossingFIO" type="text" value="QWAS-/"></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Имя на расчетной карте field accepts english capital letters, space, dot, slash/ and dash" classname="Scenario: Имя на расчетной карте field accepts english capital letters, space, dot, slash/ and dash" time="0.004">
+    <failure message="Element should have value &apos;qWaS1~!@#$%^&amp;*&apos; {By.id: embossingFIO-id}&#10;Element: &apos;&lt;input autocomplete=&quot;off&quot; class=&quot;input_block__text&quot; data-bind=&quot;textInput: embossingFIO, hasFocus: enableEmbossingFIO&quot; id=&quot;embossingFIO-id&quot; maxlength=&quot;35&quot; name=&quot;embossingFIO&quot; type=&quot;text&quot; value=&quot;QWAS-/&quot;&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should have value 'qWaS1~!@#$%^&*' {By.id: embossingFIO-id}
+Element: '<input autocomplete="off" class="input_block__text" data-bind="textInput: embossingFIO, hasFocus: enableEmbossingFIO" id="embossingFIO-id" maxlength="35" name="embossingFIO" type="text" value="QWAS-/"></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Кодовое слово is displayed" time="0"/>
+  <testcase name="Then Поле Кодовое слово exists" classname="Scenario: Кодовое слово is displayed" time="0"/>
+  <testcase name="And Поле Кодовое слово редактируемое" classname="Scenario: Кодовое слово is displayed" time="0"/>
+  <testcase name="And Поле Кодовое слово имеет тип Текстовое поле" classname="Scenario: Кодовое слово is displayed" time="0"/>
+  <testcase name="And Поле Кодовое слово имеет значение пустое" classname="Scenario: Кодовое слово is displayed" time="0"/>
+  <testcase name="And Поле Кодовое слово имеет длину 35 символов" classname="Scenario: Кодовое слово is displayed" time="0"/>
+  <testcase name="Scenario: Кодовое слово is displayed" classname="Scenario: Кодовое слово is displayed" time="0"/>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Дата рождения is displayed" time="0"/>
+  <testcase name="Then Поле Дата рождения exists" classname="Scenario: Дата рождения is displayed" time="0"/>
+  <testcase name="And Поле Дата рождения редактируемое" classname="Scenario: Дата рождения is displayed" time="0"/>
+  <testcase name="And Поле Дата рождения имеет тип Дата" classname="Scenario: Дата рождения is displayed" time="0"/>
+  <testcase name="And Поле Дата рождения имеет значение пустое" classname="Scenario: Дата рождения is displayed" time="0"/>
+  <testcase name="Scenario: Дата рождения is displayed" classname="Scenario: Дата рождения is displayed" time="0"/>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Дата рождения не может быть меньше 01.01.1920" time="0.004"/>
+  <testcase name="When I type 31.12.1919 to Дата рождения" classname="Scenario: Дата рождения не может быть меньше 01.01.1920" time="0">
+    <failure message="Element should be visible {By.id: birthDate-id}&#10;Element: &apos;&lt;input class=&quot;nf-widget-date &quot; data-bind=&quot;date: birthDate, name: &apos;birthDate&apos;&quot; id=&quot;birthDate-id&quot; name=&quot;birthDate&quot; type=&quot;text&quot; displayed:false&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should be visible {By.id: birthDate-id}
+Element: '<input class="nf-widget-date " data-bind="date: birthDate, name: 'birthDate'" id="birthDate-id" name="birthDate" type="text" displayed:false></input>'
+]]></failure>
+  </testcase>
+  <testcase name="Scenario: Дата рождения не может быть меньше 01.01.1920" classname="Scenario: Дата рождения не может быть меньше 01.01.1920" time="0.012">
+    <failure message="Element should be visible {By.id: birthDate-id}&#10;Element: &apos;&lt;input class=&quot;nf-widget-date &quot; data-bind=&quot;date: birthDate, name: &apos;birthDate&apos;&quot; id=&quot;birthDate-id&quot; name=&quot;birthDate&quot; type=&quot;text&quot; displayed:false&gt;&lt;/input&gt;&apos;" type="com.codeborne.selenide.ex.ElementShould"><![CDATA[com.codeborne.selenide.ex.ElementShould: 
+Element should be visible {By.id: birthDate-id}
+Element: '<input class="nf-widget-date " data-bind="date: birthDate, name: 'birthDate'" id="birthDate-id" name="birthDate" type="text" displayed:false></input>'
+]]></failure>
+  </testcase>
+  <testcase name="And click Сохранить" classname="Scenario: Дата рождения не может быть меньше 01.01.1920" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Появляется ошибка Дата рождения не может быть меньше 01.01.1920" classname="Scenario: Дата рождения не может быть меньше 01.01.1920" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Дата рождения не может быть больше вчерашней" time="0"/>
+  <testcase name="When I type сегодня to Дата рождения" classname="Scenario: Дата рождения не может быть больше вчерашней" time="0.004">
+    <error message="Unsupported field: MinuteOfHour" type="java.time.temporal.UnsupportedTemporalTypeException">java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: MinuteOfHour
+</error>
+  </testcase>
+  <testcase name="Scenario: Дата рождения не может быть больше вчерашней" classname="Scenario: Дата рождения не может быть больше вчерашней" time="0.008">
+    <error message="Unsupported field: MinuteOfHour" type="java.time.temporal.UnsupportedTemporalTypeException">java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: MinuteOfHour
+</error>
+  </testcase>
+  <testcase name="And click Сохранить" classname="Scenario: Дата рождения не может быть больше вчерашней" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Появляется ошибка Дата рождения не может быть больше вчерашней" classname="Scenario: Дата рождения не может быть больше вчерашней" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0"/>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0"/>
+  <testcase name="When I type 31.12.2016 to Дата выдачи ДУЛ" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0.004">
+    <failure message="Element not found {by text: Дата выдачи ДУЛ}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {by text: Дата выдачи ДУЛ}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(.) = "Дата выдачи ДУЛ"]/parent::*"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-6S2SOLQ2', ip: '172.23.88.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\anast\AppData\Local\Temp\scoped_dir13872_8849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b00eacc1ca8c603e77fbb13bc9e1802
+*** Element info: {Using=xpath, value=.//*/text()[normalize-space(.) = "Дата выдачи ДУЛ"]/parent::*}
+</failure>
+  </testcase>
+  <testcase name="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0.004">
+    <failure message="Element not found {by text: Дата выдачи ДУЛ}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {by text: Дата выдачи ДУЛ}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(.) = "Дата выдачи ДУЛ"]/parent::*"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-6S2SOLQ2', ip: '172.23.88.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\anast\AppData\Local\Temp\scoped_dir13872_8849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b00eacc1ca8c603e77fbb13bc9e1802
+*** Element info: {Using=xpath, value=.//*/text()[normalize-space(.) = "Дата выдачи ДУЛ"]/parent::*}
+</failure>
+  </testcase>
+  <testcase name="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0.008">
+    <failure message="Element not found {by text: Дата выдачи ДУЛ}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {by text: Дата выдачи ДУЛ}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(.) = "Дата выдачи ДУЛ"]/parent::*"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-6S2SOLQ2', ip: '172.23.88.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\anast\AppData\Local\Temp\scoped_dir13872_8849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b00eacc1ca8c603e77fbb13bc9e1802
+*** Element info: {Using=xpath, value=.//*/text()[normalize-space(.) = "Дата выдачи ДУЛ"]/parent::*}
+</failure>
+  </testcase>
+  <testcase name="And I type 31.12.2016 to Дата рождения" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And I type 31.12.2016 to Дата рождения" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click Сохранить" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And click Сохранить" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Появляется ошибка Дата рождения не может больше даты выдачи ДУЛ" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then Появляется ошибка Дата рождения не может больше даты выдачи ДУЛ" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When I type 31.12.2015 to Дата выдачи ДУЛ" classname="Scenario: Дата рождения должна быть меньше Даты выдачи ДУЛ" time="0">
+    <failure message="Element not found {by text: Дата выдачи ДУЛ}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {by text: Дата выдачи ДУЛ}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(.) = "Дата выдачи ДУЛ"]/parent::*"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-6S2SOLQ2', ip: '172.23.88.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\anast\AppData\Local\Temp\scoped_dir13872_8849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b00eacc1ca8c603e77fbb13bc9e1802
+*** Element info: {Using=xpath, value=.//*/text()[normalize-space(.) = "Дата выдачи ДУЛ"]/parent::*}
+</failure>
+  </testcase>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Пол is displayed" time="0"/>
+  <testcase name="Then Поле Пол exists" classname="Scenario: Пол is displayed" time="0.004">
+    <failure message="Element not found {by text: Пол}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {by text: Пол}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(.) = "Пол"]/parent::*"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-6S2SOLQ2', ip: '172.23.88.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\anast\AppData\Local\Temp\scoped_dir13872_8849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b00eacc1ca8c603e77fbb13bc9e1802
+*** Element info: {Using=xpath, value=.//*/text()[normalize-space(.) = "Пол"]/parent::*}
+</failure>
+    <system-out><![CDATA[!!time 4000
+!!1 Пол
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario: Пол is displayed" classname="Scenario: Пол is displayed" time="0.004">
+    <failure message="Element not found {by text: Пол}&#10;Expected: exist" type="com.codeborne.selenide.ex.ElementNotFound">com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {by text: Пол}
+Expected: exist
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":".//*/text()[normalize-space(.) = "Пол"]/parent::*"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'LAPTOP-6S2SOLQ2', ip: '172.23.88.58', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\anast\AppData\Local\Temp\scoped_dir13872_8849}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=57.0.2987.133, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 2b00eacc1ca8c603e77fbb13bc9e1802
+*** Element info: {Using=xpath, value=.//*/text()[normalize-space(.) = "Пол"]/parent::*}
+</failure>
+  </testcase>
+  <testcase name="And Поле Пол редактируемое" classname="Scenario: Пол is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Поле Пол имеет тип Переключатель" classname="Scenario: Пол is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And Поле Пол содержит значения Мужской, Женский" classname="Scenario: Пол is displayed" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given an open browser with https://anketa.alfabank.ru/alfaform_dc/step1?packetId=K01&amp;platformId=alfasite" classname="Scenario: Место рождения is displayed" time="0"/>
+  <testcase name="Then Поле Место рождения exists" classname="Scenario: Место рождения is displayed" time="0"/>
+  <testcase name="And Поле Место рождения редактируемое" classname="Scenario: Место рождения is displayed" time="0"/>
+  <testcase name="And Поле Место рождения имеет тип Текстовое поле с подсказкой" classname="Scenario: Место рождения is displayed" time="0"/>
+  <testcase name="And Поле Место рождения имеет значение пустое" classname="Scenario: Место рождения is displayed" time="0"/>
+  <testcase name="And Поле Место рождения имеет длину 35 символов" classname="Scenario: Место рождения is displayed" time="0"/>
+  <testcase name="Scenario: Место рождения is displayed" classname="Scenario: Место рождения is displayed" time="0"/>
+</testsuite>

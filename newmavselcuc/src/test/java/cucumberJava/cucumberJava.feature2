@@ -1,0 +1,30 @@
+Feature: Credit Card application form
+
+Scenario: User can open Credit card application form
+
+Given an open browser with https://alfabank.ru
+When I click "Кредитные карты и кредиты"
+And I click "Заказать карту"
+Then "Заявка на кредитную карту" exists
+
+Scenario: User can fill Lastname field
+
+Given an open browser with https://anketa.alfabank.ru/alfaform-cc/endpoint?platformId=alfasite&cur=rub&card=master_card_mass
+Then label "Фамилия" exists
+And field "lastName" exists
+And tip Укажите как в паспорте is invisible
+When field "lastName" is clicked
+Then tip Укажите как в паспорте is visible
+
+Scenario: User can fill FirstName field
+
+Given an open browser with https://anketa.alfabank.ru/alfaform-cc/endpoint?platformId=alfasite&cur=rub&card=master_card_mass
+Then label "Имя" exists
+And field "firstName" exists
+And firstName "firstName" exists
+And tip Укажите как в паспорте is invisible
+When field "firstName" is clicked
+
+When type Моеимя in firstName 
+Then Моеимя is displayed in firstName 
+And tip Укажите как в паспорте is visible
